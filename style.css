@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@1&display=swap');
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background: lightskyblue;
+    width: 435px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size: small;
+    height: 100vh;
+
+
+}
+
+.sidebar nav{
+    padding: 30px;
+}
+
+.sidebar nav li{
+    font-size: small;
+    padding: 35px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /*background: rgb(219, 122, 122);*/
+    width: 85vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /*background-color: rgb(203, 103, 203);*/
+    height: 25vw;
+    width: 50vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.devpic img{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+.hello{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    font-size: 30;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.moreabout{
+    font-size: 15;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+
+
+
+
+
+}
+.buttons{
+    margin-top: 30px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.buttons button{
+    font-style: italic;
+    margin: bold;
+    padding: 14px;
+    border-radius: 14px;
+    color: antiquewhite;
+    background-color:blue;
+    font-weight: bold;
+    margin: 0 4 px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color: antiquewhite;
+    color:blue;
+
+}
